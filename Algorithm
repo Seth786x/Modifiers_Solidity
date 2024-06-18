@@ -1,0 +1,26 @@
+Step 1 : Initialize Contract
+
+       - When the contract is deployed, set the deployer's address as the admin.
+         
+
+Step 2 : Access Control Using Modifier
+
+       - Define a modifier that checks if the caller is the admin.
+
+       - If the caller is not the admin, revert the transaction with an error message.
+
+       - Otherwise, allow the function to execute.
+
+Step 3 : Admin-Only Function
+
+       - Define a function to set a new admin address.
+
+       - Apply the admin-only modifier to ensure only the admin can call this function.
+
+       - Update the admin address with the new address provided.
+
+Step 4 : Public Function to Get Admin Address
+
+       - Define a function to return the current admin address.
+
+       - This function can be called by anyone.
